@@ -8,44 +8,43 @@
 <style>
 
 .page {
-  --bg: #fdf6f9;
+  --bg: #fff7ed;          /* soft warm background */
   --surface: #ffffff;
-  --surface2: #fff0f6;
-  --border: #f0c8dc;
-  --text: #3a1f2e;
-  --muted: #9a6a7e;
-  --accent: #e05a8a;
-  --accent2: #b5477a;
-  --tag-bg: #fce4ef;
-  --tag-text: #c03070;
-  --dot: #f9b8d4;
-  --shadow: rgba(200,100,140,0.13);
-  --timeline-line: #f5c2d8;
-  --section-bg: #fff8fb;
+  --surface2: #ffedd5;
+  --border: #fdba74;
+  --text: #3b2a1a;
+  --muted: #9a6b3f;
+  --accent: #f97316;      /* main orange */
+  --accent2: #ea580c;     /* deeper orange */
+  --tag-bg: #ffedd5;
+  --tag-text: #c2410c;
+  --dot: #fdba74;
+  --shadow: rgba(249,115,22,0.12);
+  --timeline-line: #fed7aa;
+  --section-bg: #fffaf5;
+
   background: var(--bg);
   color: var(--text);
-  transition: background .4s, color .4s;
-  min-height: 100vh;
 }
 
 #theme-toggle:checked ~ .page {
-  --bg: #1a0f15;
-  --surface: #2a1520;
-  --surface2: #341825;
-  --border: #5a2a40;
-  --text: #f5dde8;
-  --muted: #c08aa0;
-  --accent: #ff80b0;
-  --accent2: #ff5090;
-  --tag-bg: #3d1a28;
-  --tag-text: #ffaaca;
-  --dot: #7a3050;
-  --shadow: rgba(255,100,160,0.1);
-  --timeline-line: #5a2a40;
-  --section-bg: #221318;
-  background: #1a0f15;
-}
+  --bg: #1c1208;
+  --surface: #2a1a0f;
+  --surface2: #3a2312;
+  --border: #7c4a1f;
+  --text: #ffedd5;
+  --muted: #d6a679;
+  --accent: #fb923c;      /* bright orange pop */
+  --accent2: #f97316;
+  --tag-bg: #3a2312;
+  --tag-text: #fdba74;
+  --dot: #7c4a1f;
+  --shadow: rgba(251,146,60,0.1);
+  --timeline-line: #7c4a1f;
+  --section-bg: #24160d;
 
+  background: var(--bg);
+}
 
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior: smooth; }
@@ -147,7 +146,7 @@ header {
   margin: 0 auto 20px;
   box-shadow: 0 0 0 6px var(--tag-bg), 0 8px 32px var(--shadow);
 
-  background-image: url('pfp.jpg');
+  background-image: url('welcome-to-the-nhk-nhk.gif');
   background-size: cover;
   background-position: center;
 }
@@ -391,7 +390,7 @@ footer {
     <div class="popup-box">
       <span class="popup-kaomoji">✿</span>
       <h2>Hey, I'm Mahdi!</h2>
-      <p>Engineering student passionate about robotics, AI, and building real-world systems — and also anime, linux distros, and bunnies 🐰</p>
+      <p>Engineering student passionate about robotics, AI, and building real-world systems — and also anime, linux distros, and croissant 🥐</p>
       <label for="popup-toggle" class="enter-btn">check my page :3 ✿</label>
     </div>
   </div>
@@ -409,7 +408,7 @@ footer {
 
   
   <section class="hero">
-    <div class="hero-pfp-placeholder">✿</div>
+    <div class="hero-pfp-placeholder">🥐</div>
     <h1>Mahdi <span>Benhamadi</span></h1>
     <p class="hero-subtitle">Engineering Student · Data Science · Big Data · AI</p>
     <p class="hero-location">📍 Agadir, Morocco — ENSA Agadir · SDBDIA · 2022–2028</p>
@@ -666,6 +665,7 @@ footer {
             <span class="interest-tag">🌸 Anime</span>
             <span class="interest-tag">🔧 Tinkering</span>
             <span class="interest-tag">💻 Open Source</span>
+            <span class="interest-tag">🥐 Croissant😋</span>
           </div>
         </div>
       </div>
@@ -676,7 +676,7 @@ footer {
   
   <footer>
     <span class="footer-note">Mahdi Benhamadi · ENSA Agadir · 2026</span>
-    <span class="footer-note">made with <span class="footer-heart">♥</span> and exactly 1 cup of coffee</span>
+    <span class="footer-note">made with exactly 1 cup of coffee</span>
   </footer>
 
 </div>
