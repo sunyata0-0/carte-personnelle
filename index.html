@@ -91,7 +91,7 @@ a { color: inherit; text-decoration: none; }
 
 header {
   gap: 16px;
-  position: sticky; top: 0; z-index: 100;
+  position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
   background: var(--surface);
   border-bottom: 1.5px solid var(--border);
   padding: 0 32px; height: 56px;
@@ -119,7 +119,7 @@ header {
 .theme-btn:hover { background: var(--accent); color: white; border-color: var(--accent); }
 
 .hero {
-  padding: 72px 40px 56px; text-align: center; position: relative; overflow: hidden;
+  padding: 120px 40px 56px; text-align: center; position: relative; overflow: hidden;
 }
 .hero::before {
   content: '';
